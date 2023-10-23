@@ -7,6 +7,12 @@ body{
     font-family: "Roboto", Helvetica, sans-serif;
 }
 
+.hero{
+    display: flex;
+}
+.info{
+    display: flex;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -55,4 +61,10 @@ button{
 
 .advertisement{
     background-color: #3882F6;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
