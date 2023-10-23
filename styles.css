@@ -4,8 +4,30 @@ body{
     background-color: #1F2937;
     margin: 0;
     border: 0;
+    font-family: "Roboto", Helvetica, sans-serif;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+a,
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo{
+    font: #F9FAF8;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
 .content{
     background-color: white;
     margin: 0;
@@ -13,4 +35,24 @@ body{
 
 .quote{
     background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #152937;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 10px solid #3882F6;
+}
+button{
+    background-color: #3882F6;
+    border: 0;
+}
+
+.advertisement{
+    background-color: #3882F6;
 }
