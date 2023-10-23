@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    margin: 0;
+    border: 0;
+}
+
+.content{
+    background-color: white;
+    margin: 0;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
