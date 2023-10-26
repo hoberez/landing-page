@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     border: 0;
-    font-family: "Roboto", Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif
 }
 
 button{ /* Hero and Advertisement */
@@ -18,7 +18,7 @@ button{ /* Hero and Advertisement */
 .header,
 .hero,
 .footer{
-    padding: 10px 200px 10px 200px;
+    padding: 10px 300px 10px 300px;
     background-color: #1F2937;
     min-width: 950px;
 }
@@ -78,7 +78,7 @@ a,
 
 /* Information Section */
 .content{
-    padding: 10px 200px 10px 200px;
+    padding: 10px 300px 10px 300px;
     min-width: 950px;
 }
 .info-header{
@@ -97,7 +97,6 @@ a,
     text-align: center;
     margin-bottom: 50px;
 }
-
 
 .item{
     display: flex;
@@ -118,12 +117,12 @@ a,
 /* Quote Section*/
 .quote{
     background-color: #E5E7EB;
-    padding: 100px;
     min-width: 950px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 150px 300px 150px 300px;
 }
 
 .quote-text{
@@ -132,6 +131,12 @@ a,
     width: 850px;
     font-style: italic;
     color: #152937;
+}
+
+.quote-author{
+    align-self: flex-end;
+    margin-right: 100px;
+    font-weight: 600;
 }
 
 /* Advertisement Section */
