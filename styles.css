@@ -4,7 +4,6 @@ body{
     margin: 0;
     border: 0;
     font-family: "Roboto", Helvetica, sans-serif;
-    min-width: 1200px;
 }
 
 button{ /* Hero and Advertisement */
@@ -21,13 +20,13 @@ button{ /* Hero and Advertisement */
 .footer{
     padding: 10px 200px 10px 200px;
     background-color: #1F2937;
+    min-width: 950px;
 }
 
 /* Header section */
 .header{
     display: flex;
     justify-content: space-between;
-    min-width: 950px;
 }
 
 .left-links{
@@ -63,14 +62,15 @@ a,
     width: 500px;
 }
 
-.subtext{
+.hero-sub{
     width: 450px;
 }
 
 .image{
     display: flex;
     background-color: gray;
-    min-width: 450px;
+    width: 450px;
+    flex-shrink: 0;
     color: white;
     align-items: center;
     justify-content: center;
@@ -78,12 +78,16 @@ a,
 
 /* Information Section */
 .content{
-    padding: 20px 100px 20px 100px;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
+    padding: 10px 200px 10px 200px;
+    min-width: 950px;
+}
+.info-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .info{
@@ -91,22 +95,41 @@ a,
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 50px;
 }
 
+
+.item{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    width: 200px;
+    margin: 30px;
+}
 .box{
-    width: 100px;
-    height: 100px;
-    border: 10px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    align-self: center;
+    padding: 0;
+    margin: 0;
 }
 
 /* Quote Section*/
 .quote{
     background-color: #E5E7EB;
-    padding: 20px;
+    padding: 100px;
+    min-width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .quote-text{
     font-size: 36px;
+    font-weight: 100;
+    width: 850px;
     font-style: italic;
     color: #152937;
 }
@@ -118,15 +141,10 @@ a,
     margin: 50px;
 }
 
-.info-header{
-    font-size: 18px;
-    font-weight: 800;
-    color: #1F2937;
-}
-
 /* Footer Section */
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 1000;
 }
