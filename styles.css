@@ -81,7 +81,7 @@ a,
 /* Information Section */
 .content{
     padding: 10px 50px 10px 50px;
-    min-width: 950px;   
+    min-width: 750px;   
 }
 .info-header{
     font-size: 36px;
@@ -117,7 +117,7 @@ a,
 /* Quote Section*/
 .quote{
     background-color: #E5E7EB;
-    min-width: 850px;
+    min-width: 750px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,6 +145,7 @@ a,
     display: flex;
     justify-content: center;
     padding: 10px 50px 10px 50px;
+    min-width: 750px;
 }
 .ad-box{
     display: flex;
@@ -154,6 +155,7 @@ a,
     padding: 50px 10px 50px 10px;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 5px;
 }
 
 .ad-text{
@@ -172,6 +174,6 @@ a,
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 1000;
+    min-width: 870px;
     padding: 40px;
 }
