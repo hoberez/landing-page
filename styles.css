@@ -12,6 +12,7 @@ button{ /* Hero and Advertisement */
     color: white;
     width: 90px;
     height: 25px;
+    border-radius: 5px;
 }
 
 /* Adjust padding */
@@ -110,6 +111,7 @@ a,
     align-self: center;
     padding: 0;
     margin: 0;
+    border-radius: 15px;
 }
 
 /* Quote Section*/
