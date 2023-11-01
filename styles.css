@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    border: 0;
     font-family: "Roboto", Helvetica, sans-serif;
 }
 
@@ -14,26 +15,22 @@ button{ /* Hero and Advertisement */
     border-radius: 5px;
 }
 
+/* Adjust padding */
 .header,
 .hero,
-.ad,
 .footer{
-    padding: 10px 50px 10px 50px;
-    background-color: #1F2937;
-    min-width: 750px;
-}
-
-/*Flexbox*/
-.flex{
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 10px 50px 10px 50px;
+    background-color: #1F2937;
+    min-width: 850px;
 }
 
 /* Header section */
 .header{
     gap: 400px;
     margin: 0;
+
 }
 
 .left-links{
@@ -72,23 +69,34 @@ a,
 }
 
 .image{
+    display: flex;
     background-color: gray;
     width: 400px;
-    height: 200px;
+    flex-shrink: 0;
     color: white;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Information Section */
 .content{
-    padding: 10px 50px 75px 50px;
+    padding: 10px 50px 10px 50px;
     min-width: 750px;   
 }
 .info-header{
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .item{
@@ -110,8 +118,11 @@ a,
 .quote{
     background-color: #E5E7EB;
     min-width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    padding: 100px;
+    padding: 100px 100px 100px 100px;
 }
 
 .quote-text{
@@ -129,18 +140,21 @@ a,
 }
 
 /* Advertisement Section */
-.ad{
-    background-color: white;
-}
 
-.ad-banner{
+.ad{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    padding: 10px 50px 10px 50px;
+    min-width: 750px;
+}
+.ad-box{
+    display: flex;
     background-color: #3882F6;
     min-width: 950px;
     margin: 50px;
     padding: 50px 10px 50px 10px;
+    justify-content: space-evenly;
+    align-items: center;
     border-radius: 5px;
 }
 
@@ -152,9 +166,14 @@ a,
 
 .white-border{
     border: 1px solid white;
+
 }
 
 /* Footer Section */
 .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 870px;
     padding: 40px;
 }
