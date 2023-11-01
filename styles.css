@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -23,14 +27,13 @@ button{ /* Hero and Advertisement */
     justify-content: center;
     padding: 10px 50px 10px 50px;
     background-color: #1F2937;
-    min-width: 850px;
+    min-width: 950px;
 }
 
 /* Header section */
 .header{
     gap: 400px;
     margin: 0;
-
 }
 
 .left-links{
@@ -81,7 +84,7 @@ a,
 /* Information Section */
 .content{
     padding: 10px 50px 10px 50px;
-    min-width: 750px;   
+    min-width: 950px;   
 }
 .info-header{
     font-size: 36px;
@@ -117,7 +120,7 @@ a,
 /* Quote Section*/
 .quote{
     background-color: #E5E7EB;
-    min-width: 750px;
+    min-width: 950px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,13 +131,13 @@ a,
 .quote-text{
     font-size: 36px;
     font-weight: 100;
-    width: 850px;
+    width: 800px;
     font-style: italic;
     color: #152937;
 }
 
 .quote-author{
-    width: 850px;
+    width: 800px;
     text-align: right;
     font-weight: 600;
 }
@@ -145,12 +148,12 @@ a,
     display: flex;
     justify-content: center;
     padding: 10px 50px 10px 50px;
-    min-width: 750px;
+    min-width: 950px;
 }
 .ad-box{
     display: flex;
     background-color: #3882F6;
-    min-width: 950px;
+    min-width: 900px;
     margin: 50px;
     padding: 50px 10px 50px 10px;
     justify-content: space-evenly;
@@ -171,9 +174,6 @@ a,
 
 /* Footer Section */
 .footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 870px;
+    min-width: 950px;
     padding: 40px;
 }
